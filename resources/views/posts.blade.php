@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="/app.css">
 <body>
 <article>
-    <h1><a href="/post">My First Post</a></h1>
+    <h1><a href="/posts/my-first-post">My First Post</a></h1>
     <p>
         The experts predicted networked artificial intelligence will amplify human effectiveness but also threaten human
         autonomy, agency and capabilities. They spoke of the wide-ranging possibilities; that computers might match or
@@ -16,7 +16,7 @@
 </article>
 
 <article>
-    <h1><a href="/post">My Second Post</a></h1>
+    <h1><a href="/posts/my-second-post">My Second Post</a></h1>
     <p>
         The experts predicted networked artificial intelligence will amplify human effectiveness but also threaten human
         autonomy, agency and capabilities. They spoke of the wide-ranging possibilities; that computers might match or
@@ -29,7 +29,7 @@
 </article>
 
 <article>
-    <h1><a href="/post">My Third Post</a></h1>
+    <h1><a href="/posts/my-third-post">My Third Post</a></h1>
     <p>
         The experts predicted networked artificial intelligence will amplify human effectiveness but also threaten human
         autonomy, agency and capabilities. They spoke of the wide-ranging possibilities; that computers might match or
