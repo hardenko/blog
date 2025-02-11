@@ -18,15 +18,15 @@ class SessionsController extends Controller
             'password' => 'required'
         ]);
 
-        if (auth()->attempt($attributes)) {
-            session()->regenerate();
-
-            return redirect('/')->with('success', 'You are now logged in');
+        if (! auth()->attempt($attributes)) {
+            throw ValidationException::withMessages([
+                'email' => 'The provided credentials are incorrect.'
+            ]);
         }
 
-        throw ValidationException::withMessages([
-            'email' => 'The provided credentials are incorrect.'
-        ]);
+        session()->regenerate();
+
+        return redirect('/')->with('success', 'You are now logged in');
     }
     public function destroy()
     {
