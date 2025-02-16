@@ -6,7 +6,6 @@
             {{-- TODO --}}
             <img src="{{ asset('storage/' . $post->thumbnail) }}" alt="Blog Post illustration" class="rounded-xl">
         </div>
-
         <div class="mt-8 flex flex-col justify-between">
             <header>
                 <div class="space-x-2">
